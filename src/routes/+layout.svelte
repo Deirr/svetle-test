@@ -17,19 +17,23 @@ class="link">{link.title}</a>
     const nav = [
     {
     title: 'Обо мне',
-    href: '/about'
+    href: '/about',
+    isShow: true,
     },
     {
     title: 'Блог',
-    href: '/blog'
+    href: '/blog',
+    isShow: false,
     },
     {
     title: 'Портфолио',
-    href: '/project'
+    href: '/project',
+    isShow: true,
     },
     {
     title: 'Контакты',
-    href: '/contact'
+    href: '/contact',
+    isShow: true,
     }
     ]
     </script>
